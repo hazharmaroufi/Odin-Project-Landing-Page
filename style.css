@@ -215,3 +215,41 @@ p.thor {
   align-self: flex-end;
   margin-right: 40px;
 }
+
+.container5 {
+  margin: 4% 12%;
+
+}
+
+.cta-blue {
+  min-height: 100px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cta p {
+  color: #f9faf8;
+  font-weight: 200;
+}
+
+.cta-blue .cta-header {
+  font-weight: bold;
+  font-size: 24px;
+  color: #e5e7eb;
+  font-weight: 500;
+}
+
+.cta button {
+  border: 1px solid #e5e7eb;
+}
+
+footer {
+  min-height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f9faf8;
+  font-size: 12px;
+}
