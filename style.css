@@ -83,7 +83,11 @@ body {
 
 }
 
-.container {
+.container1,
+.container2,
+.container3,
+.container4,
+.container5 {
   max-width: 1120px;
   margin: 0 auto;
 }
@@ -117,16 +121,29 @@ li {
 
 button {
   background-color: #3882f6;
+  color: #e5e7eb;
+  font-family: inherit;
+  border: none;
+  padding: 4px 24px;
+  border-radius: 8px;
+  margin-top: 8px;
 }
 
 .cta-blue {
   background-color: #3882f6;
 }
 
-.information.main-text {
+.information {
+  text-align: center;
+  padding-top: 32px;
+}
+
+.main-text2 {
   font-size: 36px;
   font-weight: 900;
   color: #1f2937;
+  text-align: center;
+
 }
 
 .quotes {
@@ -138,4 +155,48 @@ button {
   font-weight: 100;
   font-style: italic;
   color: #1f2937;
+}
+
+.container1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 16px;
+}
+
+.nav-ul {
+  display: flex;
+  gap: 24px;
+}
+
+ul li {
+  text-decoration: none;
+  list-style: none;
+}
+
+
+.container2 {
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  gap: 56px;
+}
+
+.container3 {
+  display: flex;
+  padding-top: 32px;
+  padding-bottom: 80px;
+  justify-content: center;
+  /* gap: 8px; */
+}
+
+.cart {
+  max-width: 180px;
+  font-weight: 200;
+}
+
+.card-img {
+  border-radius: 16px;
+  border: 4px solid #3882f6;
+  margin-bottom: 4px;
 }
